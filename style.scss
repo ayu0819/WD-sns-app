@@ -1,0 +1,70 @@
+body {
+    background-color: aliceblue;
+
+}
+
+header {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    background-color: #fff;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+input {
+    border: none;
+    width: 100%;
+    max-width: 500px;
+    padding: 10px 15px;
+    border-radius: 7px;
+    background-color: aliceblue;
+}
+
+button {
+    padding: 10px 15px;
+    border-radius: 7px;
+    border: none;
+    background-color: aliceblue;
+    margin-left: 13px;
+
+}
+
+.postArea {
+    background-color: blueviolet;
+    width: 100%;
+    position: absolute;
+    bottom: 0;
+    height: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.postAdd {
+    &-list {
+        background-color: #fff;
+        width: 100%;
+        max-width: 500px;
+        padding: 10px 15px;
+        border-radius: 5px;
+        margin-bottom: 10px;
+    }
+    &-lists {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translateY(-50%) translateX(-50%);
+        margin: auto;
+    }
+    &__area {
+        padding-top: 90px;
+        // display: flex;
+        // justify-content: center;
+        // align-items: center;
+        height: calc(100% - 60px);
+        
+    }
+}
